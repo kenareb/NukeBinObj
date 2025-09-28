@@ -18,8 +18,6 @@ A simple .NET console utility to recursively delete `bin` and `obj` folders from
 2. Extract the executable
 3. Run: `NukeBin.exe <path>`
 
-**Note:** Releases will be available after creating the first release tag. For now, use Option 3 to build from source.
-
 ### Option 2: PowerShell Installer
 
 1. Download `NukeBin.exe` and `install.ps1`
@@ -66,7 +64,7 @@ Options:
   -Force                Overwrite existing installation
 ```
 
-### Examples
+### Installation Examples
 
 ```powershell
 # Basic installation
@@ -92,17 +90,20 @@ Options:
 ### Build Steps
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/NukeBin.git
    cd NukeBin
    ```
 
 2. **Build the project**
+
    ```bash
    .\build.ps1
    ```
 
 3. **Install locally**
+
    ```bash
    .\install.ps1 -AddToPath
    ```
@@ -123,16 +124,19 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 ## Distribution Methods
 
 ### 1. Self-Contained Executable
+
 - Single `.exe` file with no dependencies
 - Works on any Windows machine
 - Larger file size (~50MB)
 
 ### 2. Framework-Dependent
+
 - Requires .NET 8.0 Runtime
 - Smaller file size (~150KB)
 - Better for development environments
 
 ### 3. GitHub Releases
+
 - Automated builds via GitHub Actions
 - Multiple platform support
 - Versioned releases
@@ -140,16 +144,19 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 ## Team Distribution
 
 ### Method 1: Shared Network Drive
+
 1. Build the executable: `.\build.ps1`
 2. Copy `NukeBin.exe` to shared network location
 3. Team members can run directly or copy to local machine
 
 ### Method 2: Internal Package Manager
+
 - Use Chocolatey, NuGet, or similar package manager
 - Create internal package repository
 - Team members install via package manager
 
 ### Method 3: GitHub Releases (After First Release)
+
 1. Tag a release: `git tag v1.0.0`
 2. Push tags: `git push --tags`
 3. GitHub Actions will automatically build and create release
@@ -166,18 +173,22 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 
 ## Troubleshooting
 
-### Permission Denied
+### Permission Denie
+
 - Run as Administrator if accessing system directories
 - Check folder permissions
 - Ensure folders are not in use by other applications
 
 ### Path Not Found
+
 - Verify the path exists
 - Use absolute paths if relative paths fail
 - Check for typos in the path
 
 ### PowerShell Execution Policy
+
 If you get execution policy errors:
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -196,7 +207,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Changelog
 
-### v1.0.0
+### v1.0.3
+
 - Initial release
 - Recursive bin/obj folder deletion
 - Self-contained executable
