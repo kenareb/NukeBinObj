@@ -214,3 +214,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Self-contained executable
 - PowerShell installer
 - GitHub Actions CI/CD
+
+### Note
+
+This code and almost everything in this repo was generated with AI. So, if this project nukes more
+than your bin folders, don't blame me, blame skynet 😉.
