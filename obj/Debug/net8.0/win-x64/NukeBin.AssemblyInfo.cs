@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2024")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b3f8b237b9039dc8989e28c73928b538867a18c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbee6e7dad9f8e0c605ad163f5218ca234d9d55b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NukeBin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NukeBin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
