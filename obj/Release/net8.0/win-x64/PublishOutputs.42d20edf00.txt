@@ -1,0 +1,2 @@
+C:\Source\NukeBinObj\publish\NukeBin.pdb
+C:\Source\NukeBinObj\publish\NukeBin.exe
