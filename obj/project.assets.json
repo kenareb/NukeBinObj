@@ -9,7 +9,31 @@
         }
       }
     },
+    "net8.0/linux-x64": {
+      "Microsoft.NET.ILLink.Tasks/8.0.14": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    },
+    "net8.0/osx-x64": {
+      "Microsoft.NET.ILLink.Tasks/8.0.14": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    },
     "net8.0/win-x64": {
+      "Microsoft.NET.ILLink.Tasks/8.0.14": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      }
+    },
+    "net8.0/win-x86": {
       "Microsoft.NET.ILLink.Tasks/8.0.14": {
         "type": "package",
         "build": {
@@ -149,7 +173,19 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
             "version": "[8.0.14, 8.0.14]"
           },
           {
@@ -157,11 +193,35 @@
             "version": "[8.0.14, 8.0.14]"
           },
           {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
             "version": "[8.0.14, 8.0.14]"
           },
           {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[8.0.14, 8.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
             "version": "[8.0.14, 8.0.14]"
           }
         ],
@@ -174,7 +234,16 @@
       }
     },
     "runtimes": {
+      "linux-x64": {
+        "#import": []
+      },
+      "osx-x64": {
+        "#import": []
+      },
       "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
         "#import": []
       }
     }

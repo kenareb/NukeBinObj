@@ -195,3 +195,4 @@ C:\Source\NukeBinObj\obj\Release\net8.0\win-x64\refint\NukeBin.dll
 C:\Source\NukeBinObj\obj\Release\net8.0\win-x64\NukeBin.pdb
 C:\Source\NukeBinObj\obj\Release\net8.0\win-x64\NukeBin.genruntimeconfig.cache
 C:\Source\NukeBinObj\obj\Release\net8.0\win-x64\ref\NukeBin.dll
+C:\Source\NukeBinObj\obj\Release\net8.0\win-x64\NukeBin.sourcelink.json
