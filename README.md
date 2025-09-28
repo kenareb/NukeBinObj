@@ -14,9 +14,11 @@ A simple .NET console utility to recursively delete `bin` and `obj` folders from
 
 ### Option 1: Direct Download (Recommended)
 
-1. Download the latest release from the [Releases page](https://github.com/yourusername/NukeBin/releases)
+1. Download the latest release from the [Releases page](https://github.com/kenareb/NukeBinObj/releases)
 2. Extract the executable
 3. Run: `NukeBin.exe <path>`
+
+**Note:** Releases will be available after creating the first release tag. For now, use Option 3 to build from source.
 
 ### Option 2: PowerShell Installer
 
@@ -147,11 +149,11 @@ dotnet publish --configuration Release --runtime win-x64 --self-contained true -
 - Create internal package repository
 - Team members install via package manager
 
-### Method 3: GitHub Releases
+### Method 3: GitHub Releases (After First Release)
 1. Tag a release: `git tag v1.0.0`
 2. Push tags: `git push --tags`
 3. GitHub Actions will automatically build and create release
-4. Team members download from releases page
+4. Team members download from [releases page](https://github.com/kenareb/NukeBinObj/releases)
 
 ## Safety Features
 
